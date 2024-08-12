@@ -26,18 +26,19 @@ GRANT ALL PRIVILEGES ON DATABASE cve TO postgres;
 
 ## Schemas 
 
-Database data model is present in folder `database_creation/schema`.
-Database diagram image that gives an understanding of the data model is in file `database_creation/schema/data_model.png`.
+Database data model is present in folder [database_creation/schema](https://github.com/anneott/cybercube/tree/main/database_creation/schema).
+Database diagram image that gives an understanding of the data model is in file
+[database_creation/schema/data_model.png](https://github.com/anneott/cybercube/blob/main/database_creation/schema/data_model.png).
 
 
-The commands to generate the database schema in postgres are available in `database_creation/schema/postgres_schemas.sql`.
+The commands to generate the database schema in postgres are available in [database_creation/schema/postgres_schemas.sql](https://github.com/anneott/cybercube/blob/main/database_creation/schema/postgres_schema.sql).
 It includes
 * creating tables
 * creating foreign keys and references between tables
 * creating indexes
 
 
-Execute the SQL commands in `database_creation/schema/postgres_schemas.sql`
+Execute the SQL commands in [database_creation/schema/postgres_schemas.sql](https://github.com/anneott/cybercube/blob/main/database_creation/schema/postgres_schema.sql)
 to create initial database structure (this step should be automated in the future).
 
 ### Indexes
